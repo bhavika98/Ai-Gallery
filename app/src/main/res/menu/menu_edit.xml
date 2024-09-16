@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_filter_by"
+        android:title="Filter by"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_album_setting"
+        android:title="Album Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_slideshow"
+        android:title="Slideshow"
+        app:showAsAction="never" />
+
+</menu>

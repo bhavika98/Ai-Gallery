@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/extra_error"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:drawableRight="@drawable/abc_ic_ab_back_material"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:textColor="@color/black"
+    android:textSize="16sp" />

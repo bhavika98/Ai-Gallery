@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BG_Color"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.theartofdev.edmodo.cropper.CropImageView
+            android:id="@+id/cropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rotateLayout"
+            app:cropBorderCornerColor="@color/Crop_Corner_Color"
+            app:cropBorderCornerThickness="3dp" />
+
+        <LinearLayout
+            android:id="@+id/rotateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/recyclerViewCrop"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:id="@+id/flipImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.3"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/flip_btn" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:gravity="center">
+
+                <me.angrybyte.numberpicker.view.ActualNumberPicker
+                    android:id="@+id/angleImage"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/BG_Color"
+                    app:bar_color="@color/white"
+                    app:bar_width="2dp"
+                    app:bars_count="20"
+                    app:max_value="45"
+                    app:selection_color="@color/Header_Color"
+                    app:min_value="-45"
+                    app:show_controls="false"
+                    app:show_fast_controls="false"
+                    app:show_text="true"
+                    app:text_color="@color/Header_Color"
+                    app:text_size="18dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rotateImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.3"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/rotate_btn" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewCrop"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/Footer_Color" />
+
+    </RelativeLayout>
+
+</LinearLayout>

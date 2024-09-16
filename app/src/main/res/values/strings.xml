@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AI Gallery</string>
+
+    <string name="sdcard_error">SD card can\'t be detected or read by the device.</string>
+    <string name="PhotoEditActivity_Title">Edit Image</string>
+    <string name="CoverImageActivity_Title">Select Cover Image</string>
+    <string name="VideoPlayActivity_Title">Video Player</string>
+    <string name="SettingActivity_Title">Settings</string>
+    <string name="CropActivity_Title">Crop Image</string>
+
+    <string name="reload_images">Load images</string>
+    <string name="loading_images">Loading images…</string>
+</resources>

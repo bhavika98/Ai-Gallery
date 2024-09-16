@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Status_Bar">#48c2a7</color>
+    <color name="colorPrimary">#53d0b4</color>
+    <color name="colorPrimaryDark">@color/Status_Bar</color>
+    <color name="colorAccent">#53d0b4</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#939393</color>
+    <color name="hiddenText">#75ffffff</color>
+
+    <color name="BG_Color">#2B2C31</color>
+    <color name="Header_Color">#53d0b4</color>
+    <color name="Header_Font_Color">#ffffff</color>
+    <color name="Footer_Color">#252525</color>
+
+    <color name="Stroke_Transparent">#30000000</color>
+    <color name="Bottom_Indicator">#53d0b4</color>
+
+    <color name="Stroke">#53d0b4</color>
+    <color name="Button_Normal_Color">#ffffff</color>
+    <color name="Button_Selected_Color">#53d0b4</color>
+
+    <color name="SeekBar_Inside_Thumb">#53d0b4</color>
+    <color name="SeekBar_Outside_Thumb">#ffffff</color>
+    <color name="Crop_Corner_Color">#53d0b4</color>
+    <color name="Dialog_Selection">#ececec</color>
+
+</resources>
